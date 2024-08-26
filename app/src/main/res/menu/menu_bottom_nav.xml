@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/homeFragment"
+        android:title="Главная"
+        android:icon="@drawable/bottom_btn1"/>
+    <item android:id="@+id/projectFragment"
+        android:icon="@drawable/bottom_btn2"
+        android:title="Проекты"/>
+    <item android:id="@+id/textinput_placeholder"
+        android:title="" />
+    <item android:id="@+id/myTaskFragment"
+        android:title="Мои задачи"
+        android:icon="@drawable/bottom_btn3"/>
+    <item android:id="@+id/profileFragment"
+        android:title="Профиль"
+        android:icon="@drawable/bottom_btn4"/>
+</menu>
