@@ -1,6 +1,7 @@
 package ru.abramov.projectmanager
 
 import android.app.PendingIntent.getActivity
+import android.content.Intent
 import android.graphics.Color
 import android.os.Build
 import android.os.Bundle
@@ -36,14 +37,15 @@ class MainActivity : AppCompatActivity(){
         bottomNavigationView.menu.getItem(2).setEnabled(false)
         bottomNavigationView.background = null
 
-        FAB.setOnClickListener {
-            
-        }
+
 
     }
 
 
-
+    fun onClickToAddProject(view: View){
+        val intent = Intent(this, AddProjectActivity::class.java)
+        startActivity(intent)
+    }
 
     private fun setStatusBarColor(color: Int) {
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {

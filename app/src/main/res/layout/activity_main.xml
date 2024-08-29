@@ -47,6 +47,7 @@
             android:id="@+id/floatBtnAdd"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:onClick="onClickToAddProject"
             android:src="@drawable/float_icon"
             app:backgroundTint="@color/dark_purple"
             app:fabAnimationMode="scale"
